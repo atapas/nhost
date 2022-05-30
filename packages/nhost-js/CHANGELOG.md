@@ -1,5 +1,17 @@
 # @nhost/nhost-js
 
+## 1.2.0
+
+### Minor Changes
+
+- 858014e4: New `adminSecret` option
+  It is now possible to add a new adminSecret when creating a Nhost client. When set, it is sent as an `x-hasura-admin-secret` header for all GraphQL, Storage, and Serverless Functions requests.
+
+### Patch Changes
+
+- Updated dependencies [858014e4]
+  - @nhost/hasura-storage-js@0.3.0
+
 ## 1.1.14
 
 ### Patch Changes
